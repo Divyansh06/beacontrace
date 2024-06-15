@@ -1,0 +1,13 @@
+.header-title {
+    margin: 0px;
+}
+
+.header-title-text {
+    color: #fff;
+    transform: translateY(8px);
+    margin: 0px;
+}
+
+.header-container {
+    min-width: 87vw;
+}

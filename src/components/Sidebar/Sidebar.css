@@ -1,0 +1,15 @@
+.brand-logo {
+    height: 63px;
+    width: 199px;
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    overflow: 'auto';
+    height: 'fit-content';
+    min-height: '100vh';
+    position: 'fixed';
+    left: 0;
+    top: 0;
+    bottom: 0;
+}

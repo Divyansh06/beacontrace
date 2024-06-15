@@ -1,0 +1,11 @@
+.event-preview-card {
+    position: sticky;
+    top: 10%;
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.event-preview-contianer {
+    margin-top: -30px;
+}

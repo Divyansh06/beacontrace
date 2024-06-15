@@ -1,0 +1,13 @@
+.overview-info {
+    text-align: center;
+}
+
+.overview-info-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -20px;
+}
+
+.overview-info-card {
+    margin: 20px;
+}

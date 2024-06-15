@@ -1,0 +1,52 @@
+.channel-info-card {
+    margin: 20px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.graph-container {
+    width: 50%;
+    border: 1px solid #eee;
+    box-shadow: #ddd 0px 5px 10px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info-column {
+    display: flex;
+    transform: translateY(-10px);
+}
+
+.statistic {
+    margin: 20px;
+    margin-bottom: -2px;
+    border: 1px solid #ddd;
+    box-shadow: #ddd 0px 5px 10px 0px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.tile-heading {
+    color: #fff;
+    font-weight: bold;
+}
+
+.red {
+    background: #F14F21;
+}
+
+.green {
+    background: #7EB900;
+}
+
+.blue {
+    background: #00A3EE;
+}
+
+.yellow {
+    background: #FEB800;
+}

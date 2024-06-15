@@ -1,0 +1,10 @@
+.event-list-card {
+    margin: 20px;
+    width: 100%;
+    height: fit-content;
+}
+
+.event-container {
+    display: flex;
+    justify-content: space-between;
+}
