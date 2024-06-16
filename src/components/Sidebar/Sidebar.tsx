@@ -1,6 +1,6 @@
 import { Layout, Menu, MenuProps } from "antd";
 import { useLocation, useNavigate } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/beacontrace_transparent.png";
 import "./Sidebar.css";
 import { useEffect, useState } from "react";
 

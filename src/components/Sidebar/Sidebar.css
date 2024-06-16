@@ -1,7 +1,8 @@
 .brand-logo {
-    height: 63px;
-    width: 199px;
-    margin-bottom: 20px;
+    height: 200px;
+    width: 200px;
+    transform: translateY(-50px);
+    margin-bottom: -120px;
 }
 
 .sidebar {

@@ -1,5 +1,7 @@
+import NoData from "../../../components/NoData/NoData";
+
 function Analytics() {
-    return (<h1>Analytics</h1>);
+  return <NoData />;
 }
 
 export default Analytics;

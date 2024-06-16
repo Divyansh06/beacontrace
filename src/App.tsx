@@ -1,13 +1,17 @@
-import { Layout } from 'antd';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Layout } from "antd";
+import { BrowserRouter as Router } from "react-router-dom";
 
-import AppHeader from './components/Header/Header'
-import AppSidebar from './components/Sidebar/Sidebar';
-import RouterOutlet from './routing/routing';
+import AppHeader from "./components/Header/Header";
+import AppSidebar from "./components/Sidebar/Sidebar";
+import RouterOutlet from "./routing/routing";
 
-import './App.css'
+import "./App.css";
 
-const dummyChannels = [{ id: 1, name: 'Sales' }, { id: 2, name: 'Marketing' }, { id: 3, name: 'Reporting' }];
+const dummyChannels = [
+  { id: 1, name: "Sales" },
+  { id: 2, name: "Marketing" },
+  { id: 3, name: "Reporting" },
+];
 
 const { Content } = Layout;
 
@@ -17,13 +21,13 @@ const App: React.FC = () => {
       <Layout hasSider>
         <AppSidebar channels={dummyChannels} />
         <Layout style={{ marginLeft: 200 }}>
-          <AppHeader title={'Dashboard'} />
+          <AppHeader title={"Divyansh Sharma"} tier="Free" />
           <Content>
             <RouterOutlet />
           </Content>
         </Layout>
       </Layout>
-    </Router >
+    </Router>
   );
 };
 

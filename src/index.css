@@ -6,4 +6,5 @@
   -moz-osx-font-smoothing: grayscale;
   margin: -8px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }

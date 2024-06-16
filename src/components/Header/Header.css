@@ -11,3 +11,10 @@
 .header-container {
     min-width: 87vw;
 }
+
+.tag {
+    height: 40px;
+    font-size: 18px;
+    margin: 5px;
+    margin-left: 50px;
+}
